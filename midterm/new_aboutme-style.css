@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.section {
+    padding: 20px;
+    text-align: center;
+}
+.header {
+    background-color: rgb(245, 172, 15); /* สีส้ม */
+    color: white;
+}
+.class-section {
+    background-color: rgb(255, 242, 204); /* สีเหลืองอ่อน */
+}
+.favorite-section {
+    background-color: rgb(255, 242, 204); /* สีเหลืองอ่อน */
+}
+.happy-section {
+    background-color: rgb(213, 232, 212); /* สีเขียวอ่อน */
+}
+.sad-section {
+    background-color: rgb(213, 232, 212); /* สีเขียวอ่อน */
+}
+.fun-facts-section {
+    background-color: rgb(213, 232, 212); /* สีเขียวอ่อน */
+}
+h2 {
+    margin: 0;
+}
+img {
+    width: 150px;
+    height: auto;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}

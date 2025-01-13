@@ -1,0 +1,73 @@
+/* Stylesheet: aboutme-style.css */
+
+/* Change the background color of the body */
+body {
+    background-color: #4A4A3F; /* Dark background */
+    font-family: Georgia, serif;
+    color: #EDEDED; /* Light text color */
+    margin: 20px;
+}
+
+/* Style the main heading */
+h1 {
+    color: #87CEFA; /* Light blue color */
+    font-size: 28px;
+    text-align: center;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+/* Style subheadings */
+h2 {
+    color: #FFD700; /* Gold color */
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Style unordered lists */
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+/* Style ordered lists */
+ol {
+    margin-left: 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #D3D3D3; /* Light gray color */
+}
+
+/* Add a border and padding to mood images */
+.moods img {
+    border: 2px solid #FFD700; /* Gold border */
+    border-radius: 8px;
+    padding: 5px;
+    transition: transform 0.2s;
+}
+
+.moods img:hover {
+    transform: scale(1.1);
+}
+
+/* Style the footer icons */
+.footer img {
+    margin-top: 20px;
+    margin-right: 10px;
+    height: 40px;
+}
+
+/* Customize paragraph text */
+p {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+/* Add a horizontal rule style */
+hr {
+    border: 0;
+    height: 1px;
+    background: #FFD700; /* Gold color */
+    margin: 20px 0;
+}
