@@ -1,0 +1,24 @@
+<p>don't change this paragraph</p>
+<div id="main">
+<p>Here is paragraph one</p>
+<p>Here is paragraph two</p>
+<p>Here is paragraph three</p>
+<p>Here is paragraph four</p>
+<p>Here is paragraph five</p>
+<p>Llamas and Chickens!</p>
+<p>Here is paragraph seven</p>
+<p>Here is paragraph eight</p>
+<p>Here is paragraph nine</p>
+<p>Here is paragraph ten</p>
+<p>Here is paragraph eleven</p>
+<p>He
+    <script src="script.js">    // เลือกทุก <p> ที่อยู่ใน div#main
+        const paragraphs = document.querySelectorAll("#main p");
+    
+        // วนลูปเพื่อตรวจสอบและเปลี่ยนสีเฉพาะย่อหน้าที่มีข้อความตรงกัน
+        paragraphs.forEach(p => {
+            if (p.textContent.trim() === "Llamas and Chickens!") {
+                p.style.color = "red"; // เปลี่ยนสีตัวอักษรเป็นสีแดง
+            }
+        });
+    </script>

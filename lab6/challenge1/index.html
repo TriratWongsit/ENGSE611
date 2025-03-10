@@ -1,0 +1,16 @@
+<p>Don't change this paragraph</p>
+<div id="main">
+  <p>change this paragraph.</p>
+  <p>change this paragraph too.</p>
+  <p>And change this last paragraph.</p>
+</div>
+<script src="script.js">
+   // เลือกทุก <p> ที่อยู่ภายใน div#main
+    const paragraphs = document.querySelectorAll("#main p");
+
+    // วนลูปเปลี่ยนสไตล์ของแต่ละ <p>
+    paragraphs.forEach(p => {
+        p.style.fontSize = "24px"; // เปลี่ยนขนาดตัวอักษร
+        p.style.color = "red"; // เปลี่ยนสีตัวอักษร
+    });
+</script>
